@@ -8,7 +8,7 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
 COPY ["WaSwagger.csproj", "WaSwagger/"]
-RUN dotnet restore "WaSwagger/WaSwagger.csproj"
+RUN dotnet restore "WaSwagger.csproj"
 COPY . .
 WORKDIR "/src/WaSwagger"
 RUN dotnet build "WaSwagger.csproj" -c Release -o /app/build
