@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaSwagger", "WaSwagger\WaSwagger.csproj", "{7F7A374D-F7C6-4FB5-9C13-892A772E9C41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F7A374D-F7C6-4FB5-9C13-892A772E9C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7A374D-F7C6-4FB5-9C13-892A772E9C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7A374D-F7C6-4FB5-9C13-892A772E9C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7A374D-F7C6-4FB5-9C13-892A772E9C41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7C6D59B-3666-4D68-8B92-167D7E5F3CC4}
+	EndGlobalSection
+EndGlobal
