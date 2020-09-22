@@ -13,7 +13,7 @@ namespace WaSwagger.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Fagyos", "Forró"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
